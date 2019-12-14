@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54351a562e6c7ea47bd31ac67a0ec0d0, type: 3}
+  m_Name: C2. Fight-Watch
+  m_EditorClassIdentifier: 
+  StoryText: "You watch like the rest of the crowd and hear that the wolf-man is beating
+    the child because he stole an apple, but it's too late to stop him, the child
+    is dead\r\n\r\n1. You continue roaming, you don't care\r\n2. You stay behind as
+    the rest of the crowd leaves"
+  nextStates:
+  - {fileID: 11400000, guid: 1ad3ee74180ffd147a688c5b869b509f, type: 2}
+  - {fileID: 11400000, guid: 619a7a57c4efa4a4eaf42432a186b3f5, type: 2}

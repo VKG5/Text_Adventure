@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54351a562e6c7ea47bd31ac67a0ec0d0, type: 3}
+  m_Name: C3. Fight-Interrupt
+  m_EditorClassIdentifier: 
+  StoryText: "You dash in to save the child, and the wolf-man stops upon seeing you,
+    you ask him the reason, he tells you that the child had stole an apple\r\n\r\n1.
+    You pay for the apple\r\n2. You go back to the crowd"
+  nextStates:
+  - {fileID: 11400000, guid: 618a9fb7fe341c944a7173846dd144aa, type: 2}
+  - {fileID: 11400000, guid: 2dbc10d5d237bb740a58d1981cb9be3a, type: 2}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54351a562e6c7ea47bd31ac67a0ec0d0, type: 3}
+  m_Name: A0. In the Plaza
+  m_EditorClassIdentifier: 
+  StoryText: "You find yourself standing in a plaza, you decide to go to the/or\r\n\r\n1.
+    Park\r\n2. Market\r\n3. Roam"
+  nextStates:
+  - {fileID: 11400000, guid: 5668c4b1c87dc0b4cbaa454b4a815682, type: 2}
+  - {fileID: 11400000, guid: 5f70164c545608d4a984f7fe4cf0063d, type: 2}
+  - {fileID: 11400000, guid: 95e58493be3cad146978019212c5cdcd, type: 2}

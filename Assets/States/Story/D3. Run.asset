@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54351a562e6c7ea47bd31ac67a0ec0d0, type: 3}
+  m_Name: D3. Run
+  m_EditorClassIdentifier: 
+  StoryText: "You start running in fear and before you know it you enter the forest......
+    You hear the voices of all kinds of animals but keep on running as you see a shadow
+    following you\r\n\r\nSuddenly someone pops up in front of you and hits you in
+    the head with a piece of wood, you slowly faint."
+  nextStates:
+  - {fileID: 11400000, guid: 325da9ae91221e540bb511f3a842fe0e, type: 2}

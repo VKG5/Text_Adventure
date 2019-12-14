@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54351a562e6c7ea47bd31ac67a0ec0d0, type: 3}
+  m_Name: D2. Graveyard
+  m_EditorClassIdentifier: 
+  StoryText: "You reach the graveyard a dark, gloomy place. You suddenly feel some
+    movement in the bushes behind\r\n\r\n1. You decide to run\r\n2. You decide to
+    check it out"
+  nextStates:
+  - {fileID: 11400000, guid: 89fdd2f5983552947b7873861542823c, type: 2}
+  - {fileID: 11400000, guid: b3c8a74b962657b4e837271b9a7b9dc7, type: 2}

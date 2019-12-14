@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54351a562e6c7ea47bd31ac67a0ec0d0, type: 3}
+  m_Name: C1. Market-Fight
+  m_EditorClassIdentifier: 
+  StoryText: "You see there is a wolf-man thrashing a little ragamuffin elf-child\r\n\r\n1.
+    Watch\r\n2. Interrupt"
+  nextStates:
+  - {fileID: 11400000, guid: 2dbc10d5d237bb740a58d1981cb9be3a, type: 2}
+  - {fileID: 11400000, guid: 520f01757ed3e804e80b204e969e33d6, type: 2}
